@@ -22,7 +22,7 @@ public class Stack {
 		}
 		arr[++top] = x;
 		return true;
-	}
+	}	
 
 	public int pop() {
 		return (isEmpty()) ? -1 : arr[top--];
@@ -38,7 +38,7 @@ public class Stack {
 		return top == capacity - 1;
 	}
 
-//to check empty
+	// to check empty
 	public boolean isEmpty() {
 		return top == -1;
 	}
@@ -59,7 +59,7 @@ public class Stack {
 		stack.push(5);
 		System.err.println(stack.size());
 		System.err.println(stack.pop());
-		System.err.println(stack.pop());
+		System.err.println(stack.isEmpty());
 		System.err.println(Arrays.toString(stack.stacks()));
 	}
 
