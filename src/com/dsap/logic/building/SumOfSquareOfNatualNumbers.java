@@ -19,10 +19,10 @@ public class SumOfSquareOfNatualNumbers {
 
 	public static void main(String[] args) {
 		int number = 2;
-		 System.out.printf("Sum of square of natual numbers of %s is %s", number,
-		 sumOfSquareOfNaturalNumbers(number));
+		System.out.printf("Sum of square of natual numbers of %s is %s", number, sumOfSquareOfNaturalNumbers(number));
 		// sumOfSquareOfNaturalNumbers2(2);
-		//System.out.printf("Sum of square of natual numbers of %s is %s", number, sumOfSquaresMath(number));
+		// System.out.printf("Sum of square of natual numbers of %s is %s", number,
+		// sumOfSquaresMath(number));
 	}
 
 	// Alternate taking extra space
