@@ -9,7 +9,7 @@ public class DiceProblem {
 	}
 
 	public static void main(String[] args) {
-		int oppositeOf = -1;
+		int oppositeOf = 1;
 		System.out.printf("Opposite of %s is %s", oppositeOf, giveTheOppositeFace(oppositeOf));
 	}
 
